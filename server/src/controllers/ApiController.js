@@ -9,8 +9,8 @@ class ApiController {
                 descricao: req.body.descricao
             }
             const auth = {
-                username: 'dniautocom',
-                password: '1234'
+                username: 'user',
+                password: 'password'
             }
             const response = await axios.post('http://192.168.1.240:84/RetrofitExample/public/consulta?cnpj=07744784000101', data, {auth});
             res.status(200).json(response.data);
