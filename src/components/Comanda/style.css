@@ -1,0 +1,44 @@
+.teste-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.background-container {
+    margin-top: 50px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #0005;
+
+    @media(max-width: 450px) {
+        width: 90%
+    }
+}
+
+.background-container h1{
+    padding-left: 30px;
+}
+
+.content {
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.scroll {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.content p, h2, h3 {
+    padding-left: 10px;
+}
+
+.subtotal {
+    padding-right: 40px;
+    text-align: right;
+}
